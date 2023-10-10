@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hack-ai"
+version = "0.1.0"
+description = ""
+authors = ["Jimmy Dogfish <102053596+JimmyDogfish@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.12"
+uagents = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
